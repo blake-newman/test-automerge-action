@@ -27,4 +27,5 @@ jobs:
         env:
           GITHUB_TOKEN: "${{ secrets.GH_TOKEN }}"
           UPDATE_LABEL: "ready-to-update"
+          UPDATE_METHOD: "rebase"
           LABELS: "!wip, required"
