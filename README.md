@@ -3,6 +3,7 @@ Test update to automerge-action
 
 ## Scratchpad
 - Update 1
+- Update 2
 
 
 ## Tested
