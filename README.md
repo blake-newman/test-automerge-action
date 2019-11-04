@@ -6,7 +6,8 @@ Test update to automerge-action
 
 
 ## Tested
-- [x] merge no label
-- [x] merge with label and blocking label
-- [x] merge
+- [x] merge: no label
+- [x] merge: with label and blocking label
+- [x] merge: with labels
+- [x] update: merge
 - [x] update: rebase
