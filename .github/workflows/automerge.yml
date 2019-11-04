@@ -26,4 +26,5 @@ jobs:
         uses: blake-newman/automerge-action@043dac3
         env:
           GITHUB_TOKEN: "${{ secrets.GH_TOKEN }}"
+          UPDATE_LABEL: "ready-to-update"
           LABELS: "!wip, required"
