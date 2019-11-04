@@ -1,5 +1,11 @@
 name: automerge
 on:
+  status: {}
+  pull_request_review:
+    types:
+      - submitted
+      - edited
+      - dismissed
   check_run:
     types:
       - completed
@@ -14,10 +20,6 @@ on:
       - unlocked
       - push
       - synchronize
-  pull_request_review:
-    types:
-      - submitted
-  status: {}
 jobs:
   automerge:
     name: Auto Merge
