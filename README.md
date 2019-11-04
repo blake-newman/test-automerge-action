@@ -9,4 +9,4 @@ Test update to automerge-action
 - [x] merge no label
 - [x] merge with label and blocking label
 - [x] merge
-
+- [x] update: rebase
