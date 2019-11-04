@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Merge pull requests
-        uses: blake-newman/automerge-action@288ffc4
+        uses: blake-newman/automerge-action@2d8c4e9
         env:
           GITHUB_TOKEN: "${{ secrets.GH_TOKEN }}"
           LABELS: "!wip, required"
