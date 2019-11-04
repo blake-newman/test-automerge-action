@@ -1,6 +1,9 @@
 # test-automerge-action
 Test update to automerge-action
 
+## Scratchpad
+- Update 1
+
 
 ## Tested
 - [x] Test automerge no label
